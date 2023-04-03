@@ -1,12 +1,10 @@
 const Footer = () => { 
     return (
-        <div>
-            <footer className='static'>
-                <div className='absolute bottom-0 lg:full w-full h-16 justify-center flex items-center '>
+        <footer className='flex w-full justify-center'>
+                <div className='pt-12 '>
                 <small>@2023 Created by Joel Danjuma</small>
                 </div>
-            </footer>
-        </div>
+        </footer>
     )
 }
 
